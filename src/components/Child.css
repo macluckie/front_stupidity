@@ -1,0 +1,26 @@
+.clarence > h1{
+    text-align:center;
+    position: absolute;
+     right: 145px;
+    top: 134px;
+    color: white;
+}
+
+
+.william > h1{
+    text-align:center;
+    position: absolute;
+    right: 145px;
+    top: 603px;
+    color: white;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clarence, .william{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
