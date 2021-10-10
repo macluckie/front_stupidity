@@ -14,6 +14,7 @@ function EnterError() {
   }
 
   useEffect(() => {
+    console.log(process.env.REACT_APP_URL_API)
     if (childs.length == 0) {
       getData();
     }
